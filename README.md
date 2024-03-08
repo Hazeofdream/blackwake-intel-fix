@@ -1,2 +1,7 @@
-# blackwake-intel-fix
-A batch file that automates the fix required to play blackwake on 10th generation or higher Intel CPUs
+# Blackwake Intel Fix
+
+This is a batch file dedicated to automating the process to fix a issue with how Intel CPUs past 10th generation handle older libraries.
+
+# Usage
+Download The .bat file from clicking the "Code" Green button and using "Download as ZIP"
+Run the batch file.
