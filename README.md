@@ -7,5 +7,7 @@ Download The .bat file from clicking the "Code" Green button and using "Download
 
 Run the batch file.
 
-# Information on this Issue
+[!WARNING]\
+
+This could potentially open up your system to exploits, Assuming you do not pllay games or use programs with horrible security practice, This should never affect you in a practical way.
 https://www.intel.com/content/www/us/en/developer/articles/troubleshooting/openssl-sha-crash-bug-requires-application-update.html
