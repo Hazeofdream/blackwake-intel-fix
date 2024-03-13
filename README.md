@@ -2,7 +2,7 @@
 
 This is a batch file dedicated to automating the process to fix a issue with how Intel CPUs past 10th generation handle older libraries.
 
-# Usage
+> [!USAGE]
 Download The .bat file from clicking the "Code" Green button and using "Download ZIP"
 
 Run the batch file.
