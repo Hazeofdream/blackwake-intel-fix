@@ -3,7 +3,7 @@
 This is a batch file dedicated to automating the process to fix a issue with how Intel CPUs past 10th generation handle older libraries.
 
 # Usage
-Click this [![Downloads][downloads-shield]][releases-link] button and download "Source Code"
+Click this [![Downloads][downloads-shield]][releases-link] button and download "Blackwake.Fix.bat"
 
 Run the batch file.
 
