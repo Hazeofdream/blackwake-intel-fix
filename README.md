@@ -3,7 +3,7 @@
 This is a batch file dedicated to automating the process to fix a issue with how Intel CPUs past 10th generation handle older libraries.
 
 # Usage
-Click tthis [![Downloads][downloads-shield]][releases-link] button and download "Source Code"
+Click this [![Downloads][downloads-shield]][releases-link] button and download "Source Code"
 
 Run the batch file.
 
