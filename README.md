@@ -13,11 +13,14 @@ Run the batch file.
 > https://www.intel.com/content/www/us/en/developer/articles/troubleshooting/openssl-sha-crash-bug-requires-application-update.html
 
 # Alternative Method
+If you have a newer BIOS that specifically patches this intel security issue, the environmental variable solution in the .bat file will be blocked.
+This can be solved my only running the setting in a child process
+
 You can use this command in order to only have the patch apply to Blackwake related applications.
 The downside is that Blackwake will run behind a windows terminal and must remain open along with the game.
 Copy the Below command and enter it as a startup command for Blackwake in Steam's Startup options (Properties > General > Launch Options)
 ```css
-cmd /c "setx OPENSSL_ia32cap "~0x20000000"" &&  %command%
+cmd /c "set OPENSSL_ia32cap=:~0x20000000" &&  %command%
 ```
 
 <!-- MARKDOWN LINKS -->
