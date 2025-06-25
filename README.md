@@ -19,8 +19,15 @@ This can be solved my only running the setting in a child process
 You can use this command in order to only have the patch apply to Blackwake related applications.
 The downside is that Blackwake will run behind a windows terminal and must remain open along with the game.
 Copy the Below command and enter it as a startup command for Blackwake in Steam's Startup options (Properties > General > Launch Options)
+
+Windows Users:
 ```css
 cmd /c "set OPENSSL_ia32cap=:~0x20000000" &&  %command%
+```
+
+Linux Users:
+```css
+OPENSSL_ia32cap=~0x20000000 %command% -window -noborder
 ```
 
 <!-- MARKDOWN LINKS -->
